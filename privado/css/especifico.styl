@@ -1,0 +1,620 @@
+transicion(parametro)
+	-webkit-transition parametro
+	-moz-transition parametro
+	-ms-transition parametro
+	-o-transition parametro
+	transition parametro
+
+mainceleste = #03a6dc
+mainceleste_hover = #0390bf
+rosa = #ff576b
+fondo_principal = #94EBFF
+marron_claro = #915437
+amarillo = #ffa800
+amarillo_hover = #e38307
+
+fuente_simple = calibri,helvetica, arial
+fuente = tellural
+fuente_negrita = tellural_bold
+maximo_ancho = 1500px
+
+.mybut
+	font 18px fuente
+	color #fff	
+	text-align center
+	-webkit-border-radius 3px
+	-moz-border-radius 3px
+	border-radius 3px
+	padding 11px 10px
+	&.but-main
+		background mainceleste		
+		-webkit-box-shadow 0px 4px 0 mainceleste_hover
+		-moz-box-shadow 0px 4px 0 mainceleste_hover
+		box-shadow 0px 4px 0 mainceleste_hover
+	&.but-main:hover
+		background mainceleste_hover
+
+	&.but-second
+		background rosa
+		padding 11px 10px
+		margin 0
+	&.but-continuar
+		background amarillo
+		-webkit-box-shadow 0px 4px 0 amarillo_hover
+		-moz-box-shadow 0px 4px 0 amarillo_hover
+		box-shadow 0px 4px 0 amarillo_hover
+		width 100%
+		padding 15px 25px
+		text-align center
+		color #fff
+		font 22px fuente
+		&:hover
+			background amarillo_hover
+#kalin
+	background url('../imagenes/general/personajes/kalin.png')
+	width  336px
+	height 711px
+	bottom  23px
+	left  15%
+	position  absolute
+	transicion(left .9s ease-in-out)
+
+#tukituki
+	background url('../imagenes/general/personajes/tukituki.png')
+	width  280px
+	height 204px
+	top 60px
+	right  0px
+	position  absolute
+	transicion(left .9s ease-in-out)
+	z-index 9999
+.contentpage
+	position absolute
+	top 0
+	width 100%
+	height 70px
+	left 0
+	z-index 555
+#page-paginator
+	background url('../imagenes/general/line.png') repeat-x
+	width 100%
+	margin 10px auto
+	text-align center
+	width 315px
+	background-position center center
+	.thisbut
+		display block
+		position relative
+		float left
+		margin-right 20px
+		&:last-child
+			margin-right 0px
+		.capa
+			position absolute
+			top 0
+			left 0
+			width 100%
+			height 100%
+			z-index 1
+		
+	
+		
+
+		
+.sombra-seccion
+	background #0975ad
+	position relative
+	.triangulo
+		position absolute
+		top 0
+		left 0
+	.tablero
+		position absolute
+		bottom 23px
+		left 13%
+		transicion(all .9s ease-in-out)
+		.txt-tablero
+			position relative
+			top 0
+			left 0
+			h6
+				color marron_claro
+				position absolute
+				top 35px
+				width 100%
+				padding 0 25px
+				text-align center
+				font 40px journal
+				line-height 35px
+	#beneficios
+		position absolute
+		top 40px
+		left 7%
+		z-index 10
+		width 280px
+		.content
+			h2
+				font 20px fuente_negrita
+				color mainceleste
+			p
+				font 14px fuente_simple
+				color #7c7c7c
+		#beneficio1 .ico
+			position absolute
+			right -1px
+			top 0			
+			&:hover
+				background #c7bd25
+		#beneficio2 .ico
+			position absolute
+			right -1px
+			top 0			
+			&:hover
+				background #118ac8
+		.conten-full-beneficio
+			position relative
+		#beneficio1
+			position relative
+			border-top-left-radius 50px
+			border-top-right-radius 50px
+			border-bottom-right-radius 50px
+			border-bottom-left-radius 50px
+			background #ededed
+			padding 10px
+			width 80px
+			height 80px
+			float right
+			margin-bottom 10px
+			overflow visible !important			
+			&:before
+				background url("../imagenes/general/sprite.png") no-repeat -97px -948px
+				width 19px
+				height 22px
+				position absolute
+				top 28px
+				left -16px
+				content ''
+				z-index -1
+			.content
+				position absolute
+				top 0
+				left 0
+				width 100%
+				height 100%
+				padding 10px 85px 10px 30px
+				opacity 0
+		#beneficio2
+			overflow hidden
+			position relative
+			border-top-left-radius 50px
+			border-top-right-radius 50px
+			border-bottom-right-radius 50px
+			border-bottom-left-radius 50px
+			background #ededed
+			padding 10px
+			width 80px
+			height 80px
+			float right
+			overflow visible !important			
+			&:before
+				background url("../imagenes/general/sprite.png") no-repeat -97px -948px
+				width 19px
+				height 22px
+				position absolute
+				top 28px
+				left -16px
+				content ''
+				z-index -1
+			.content
+				position absolute
+				top 0
+				left 0
+				width 100%
+				height 100%
+				padding 10px 85px 10px 30px
+				opacity 0
+
+#seccion-principal
+	// background fondo_principal
+	background url('../imagenes/general/fondos/cielo.jpg') repeat-x
+	position relative
+	.content		
+		.margen
+			max-width maximo_ancho
+			margin 0 auto	
+	#main-text
+		position absolute
+		bottom -60px
+		left 0
+		max-width 360px
+		text-align left
+		h2
+			font 30px fuente_negrita
+			color #03a6dc			
+			span
+				font 50px fuente_negrita
+
+	#but-continuar
+		position absolute
+		bottom -175px
+		left 0
+		z-index 2
+
+	#main-services
+		width 820px
+		float right
+		position relative
+		min-height 500px
+		margin-right 5%
+		#serv1
+			position absolute
+			top 0
+			left 0		
+				
+			.lineservice		
+				// width 116px				
+				height 172px
+				position absolute
+				top 100px
+				left 45px
+				text-align center
+				background-repeat no-repeat
+				background: url('../imagenes/general/lineas/1.png')
+				z-index -1 
+
+		#serv2
+			position absolute
+			top 212px
+			left 133px
+
+			.lineservice		
+				// width 123px
+				height 128px
+				position absolute
+				top -96px
+				left 82px
+				text-align center
+				background-repeat no-repeat
+				background: url('../imagenes/general/lineas/2.png')
+				z-index -1
+
+		#serv3
+			position absolute
+			top 59px
+			left 329px
+
+			.lineservice		
+				// width 171px
+				height 117px
+				position absolute
+				top 60px
+				left 40px
+				text-align center
+				background-repeat no-repeat
+				background: url('../imagenes/general/lineas/3.png')
+				z-index -1
+
+		#serv4
+			position absolute
+			top 191px
+			left 513px
+
+			.lineservice		
+				width 79px
+				position absolute
+				top 81px
+				left -38px
+				text-align center
+				background-repeat no-repeat
+				background: url('../imagenes/general/lineas/4.png')
+				z-index -1
+
+		#serv5
+			position absolute
+			top 360px
+			left 380px
+
+		.each-service					
+			width 300px
+			z-index 2
+			.serv-table
+				display table
+				.ico-service
+					display table-cell
+					vertical-align middle
+				.txt-service
+					display table-cell
+					vertical-align middle
+					padding 0 10px;
+					h2
+						font 25px fuente_negrita
+						color #484848
+					h3
+						font 15px fuente_simple
+						color #6c7679
+
+#saludo
+	max-width 430px
+	position absolute
+	bottom 20px
+	left 0px
+	background #fff
+	padding 30px
+	-webkit-box-shadow 0px 6px 0px rgba(0,0,0,0.2)
+	-moz-box-shadow 0px 6px 0px rgba(0,0,0,0.2)
+	box-shadow 0px 6px 0px rgba(0,0,0,0.2)
+	border-radius 8px
+	-webkit-transition left .7s ease-in-out, right .7s ease-in-out
+	-moz-transition left .7s ease-in-out, right .7s ease-in-out
+	-ms-transition left .7s ease-in-out, right .7s ease-in-out
+	-o-transition left .7s ease-in-out, right .7s ease-in-out
+	transition left .7s ease-in-out, right .7s ease-in-out
+	em
+		font  110px fuente_negrita
+		color #03a6dc		
+		text-transform uppercase
+		margin 0 auto
+		i:after
+			content ','
+
+	h1
+		font  25px fuente
+		color #858585
+		padding 5px 0
+		span
+			font  25px fuente_negrita
+			color #03a6dc
+	p
+		color #959595
+		font 14px fuente_simple
+		position relative
+		padding-left 10px
+		&:before
+			content '*'
+			color #ff576b
+			position absolute
+			left 0
+			top 0
+
+#deseo-continuar h6
+	font 35px journal
+	color #fff
+
+#deseo-continuar:after
+	content ''
+	background-image url("../imagenes/general/sprite.png")
+	background-position -19px -940px
+	width 35px
+	height 44px
+	position absolute
+	top -11px
+	right -22px
+
+#deseo-continuar
+	position absolute
+	bottom 15px
+	left 60px
+	z-index 2
+	-webkit-transition left .8s ease-in-out
+	-moz-transition left .8s ease-in-out
+	-ms-transition left .8s ease-in-out
+	-o-transition left .8s ease-in-out
+	transition left .8s ease-in-out
+
+
+@media only screen and (max-width: 1550px)
+	#deseo-continuar
+		left 20px
+		bottom 45px
+	.nohome #beneficios
+		display none
+	.nohome #kalin
+		left 0%
+	#seccion-principal #main-services
+		width 400px !important
+	
+	.nohome .ico-res-1
+		display block
+		position absolute
+		bottom -210px
+		z-index 10
+		.ico-table
+			display table
+			width 100%
+			div
+				display table-cell
+				vertical-align middle
+				h6
+					font 18px fuente
+					color #fff
+					padding-left 10px
+		.bor
+			position relative
+			border-top-left-radius 50px
+			border-top-right-radius 50px
+			border-bottom-right-radius 50px
+			border-bottom-left-radius 50px
+			background #ededed
+			padding 5px
+			width 60px
+			height 60px
+			i
+				position absolute
+				top 0
+				bottom 0 
+				left 0
+				right 0
+				margin auto
+	
+	.nohome .ico-res-2
+		display block
+		position absolute
+		bottom -280px
+		z-index 10
+		.ico-table
+			display table
+			width 100%
+			div
+				display table-cell
+				vertical-align middle
+				h6
+					font 18px fuente
+					color #fff
+					padding-left 10px
+		.bor
+			position relative
+			border-top-left-radius 50px
+			border-top-right-radius 50px
+			border-bottom-right-radius 50px
+			border-bottom-left-radius 50px
+			background #ededed
+			padding 5px
+			width 60px
+			height 60px
+			i
+				position absolute
+				top 0
+				bottom 0 
+				left 0
+				right 0
+				margin auto
+
+.ico-res-1,
+.ico-res-2
+	display none
+#but-continuar .texto-secundario
+		display none
+.sombra-seccion .misbeneficios
+		display none
+	
+@media only screen and (max-width: 1300px)
+
+	#kalin
+		left -50px
+	
+	.sombra-seccion
+		.tablero
+			left inherit
+			right 10px
+	#seccion-principal
+		#main-services
+			margin-right 0
+
+@media only screen and (max-width: 1100px)
+	.nohome .ico-res-1
+		bottom -120px
+		left 230px
+	.nohome .ico-res-2
+		bottom -190px
+		left 230px
+	
+	#seccion-principal #main-text h2
+		color #fff
+	#seccion-principal #but-continuar
+		bottom -187px
+		left 41%
+	
+	#seccion-principal
+		#main-services
+			float none
+			margin 10px auto
+
+@media only screen and (max-width: 900px)
+	.triangulo
+		display none
+	.tablero
+		display none
+	#seccion-principal #but-continuar
+		right 0
+		left inherit
+		bottom -70px
+	
+@media only screen and (max-width: 840px)	
+	#deseo-continuar
+		display none
+	.sombra-seccion .misbeneficios .ico-hover
+		position relative
+		bottom inherit
+		left inherit
+		text-align center
+		margin 30px 0
+		width 50%
+		float left
+	.sombra-seccion .misbeneficios
+		display block
+	#main-services .ico-res-1,
+	#main-services .ico-res-2
+		display none
+	
+	.nohome .ico-res-1 .ico-table div
+		display block
+	.nohome .ico-res-1 .bor
+		margin 10px auto
+	.nohome .ico-res-2 .ico-table div
+		display block
+	.nohome .ico-res-2 .bor
+		margin 10px auto
+	.nohome .ico-res-1 
+		bottom -70px
+		left 15px
+	.nohome .ico-res-2 
+		bottom -150px
+		left 15px
+	
+	#but-continuar .texto-secundario
+		display block
+		margin 0 auto 20px auto
+		h3
+			font 40px tellural_bold
+			color #0975ad
+			text-align center
+			margin-bottom 20px
+		h4
+			font 20px tellural_bold
+			color #0975ad
+			text-align center
+	
+	#saludo
+		display none
+	.nohome #kalin
+		display none
+	#seccion-principal #main-text
+		display none
+	#seccion-principal 
+		#main-services
+			width 100%
+			padding 0 10px
+			.lineservice
+				display none
+	#seccion-principal 
+		.content
+			margin-top 0
+
+	#but-continuar
+		position relative !important
+		margin 45px auto
+		top inherit !important
+		left inherit !important
+		right inherit !important
+		bottom inherit !important
+	#seccion-principal 
+		#main-services 
+			.each-service
+				position relative !important
+				margin 15px auto
+				top inherit !important
+				left inherit !important
+				right inherit !important
+				.serv-table
+					opacity 1 !important
+
+	#seccion-principal 
+		.content.main-content
+			background none
+
+@media only screen and (max-width: 500px)
+	#page-paginator
+		background none
+		width 295px
+		.thisbut
+			margin-right 15px

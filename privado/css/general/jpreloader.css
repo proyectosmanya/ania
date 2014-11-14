@@ -1,0 +1,124 @@
+/*Edit*/
+#jpreOverlay{background-color: #fff;}
+#jpreLoader{
+	background-color: #E4E4E4;
+}
+#jpreBar {
+	background-color:#148dbf;
+}
+#jSplash img{width: 100%;vertical-align: middle;}
+#jSplash{
+	width: 180px;
+	height: 190px;
+}
+/*end Edit*/
+
+/*Animation*/
+#jpreOverlay.animation{position:absolute;
+	-webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+	animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+}
+
+@-webkit-keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); }
+}
+
+@keyframes animLoadedHeader {
+	to { -webkit-transform: translate3d(0,-100%,0); transform: translate3d(0,-100%,0); }
+}
+/*end ANimation*/
+
+body{
+	display:none;
+}
+#jpreOverlay {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	z-index:9999999;	
+}
+#jpreSlide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#jpreLoader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;	
+	z-index: 1;
+}
+
+#jSplash{
+	text-align: center;	
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+}
+#jSplash .img{	
+	margin: 0 auto; 
+	text-align: center;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#jSplash .img img{width: 100%;}
+
+@-webkit-keyframes progress {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -60px -60px;
+	}
+}
+@-moz-keyframes progress {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -60px -60px;
+	}
+}
+@-ms-keyframes progress {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -60px -60px;
+	}
+}
+@-o-keyframes progress {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -60px -60px;
+	}
+}
+@keyframes progress {
+	from {
+		background-position: 0 0;
+	}
+to {
+		background-position: -60px -60px;
+	}
+}

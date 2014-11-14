@@ -1,4 +1,2 @@
-ania
-====
-
-proyecto Ninja
+ninja
+=====

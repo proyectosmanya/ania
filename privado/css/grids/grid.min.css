@@ -1,0 +1,3 @@
+.mygrid{list-style-type:none;position:relative;margin:0;padding:0}.mygrid li{display:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .6s ease-out;-moz-transition:all .6s ease-out;-o-transition:all .6s ease-out;transition:all .6s ease-out}
+.mygrid li.inactive{visibility:hidden;opacity:0}.mygrid li img{display:block;width:100%;height:auto}.mygrid1 li{width:300px;min-height:200px;padding:0;overflow:hidden}
+.mygrid1 li.inactive{visibility:hidden;opacity:0}.mygrid1 li img{display:block}.active .mybut.categoria{background:#75567e;color:#fff}
