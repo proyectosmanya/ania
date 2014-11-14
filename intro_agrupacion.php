@@ -154,7 +154,7 @@
 		
 		.nina{position: absolute; bottom:50px; width:160px; height:231px;}
 		.nino{position: absolute; bottom:50px; width:160px; height:231px;}
-		.carro{position: absolute; bottom:0px; right: 0; width:1000px; height:auto;}
+		.carro{position: absolute; bottom:0px; right: 0; width:700px; height:auto;}
 		.sol{position: absolute; top:0px; right: 20px; width:180px; height:auto;}
 		.ninatriste{
 			position: absolute;
@@ -216,7 +216,7 @@
 
 		/*Contenido*/
 		.maincontent{max-width: 800px; position: absolute;left:0;right: 0;bottom: 0;top:0;text-align: center;height:500px;z-index: 1;margin: auto;}
-		h1{font:70px helveticaBd;color:#148dbf;}
+		h1{font:50px helveticaBd;color:#148dbf;}
 		/*El cambio de pende de ti*/
 		h2{font:60px helveticaBd;color:#148dbf;}
 		h3{font:50px helveticaBd;color:#148dbf;}
@@ -268,7 +268,7 @@
 		<div class="maincontent cleaner">
 			<div class="tablita cleanerr">
 				<div class="cleaner">
-					<h1>¿Piensas como los NiNjas?</h1>
+					<h1>Para cumplir nuestros sueños necesitamos un ambiente sano?</h1>
 				</div>
 			</div>
 		</div>
@@ -363,105 +363,82 @@
 					data-16000="right[linear]: 60%;top: 100%; opacity:1;"
 				>
 
-				<!-- Nube 1 -->		
-				<img src="imagenes/privado/intro/nube.png" alt="hoja1" rel="nofollow" class="nube nube1"
-					data-0="right: -100%; display:none;" 
-					data-8000="right[swing]: 0%; display:block;"					
-					data-10000="right[swing]: 100%;"				
-				>
-				<!-- Nube 2 -->		
-				<img src="imagenes/privado/intro/nube.png" alt="hoja1" rel="nofollow" class="nube nube2"
-					data-0="right: -100%; display:none;" 
-					data-10000="right[swing]: 0%; display:block;" 
-					data-11000="right[swing]: 100%;"					
-				>
-				<!-- Nube 3 -->		
-				<img src="imagenes/privado/intro/nube.png" alt="hoja1" rel="nofollow" class="nube nube3"
-					data-0="right: -100%; display:none;" 
-					data-10000="right[swing]: 0%; display:block;"					
-					data-12000="right[swing]: 100%;"				
-				>
-				<!-- Nube 4 -->		
-				<img src="imagenes/privado/intro/nube.png" alt="hoja1" rel="nofollow" class="nube nube4"
-					data-0="right: -100%; display:none;" 
-					data-9000="right[swing]: 0%; display:block;" 
-					data-11000="right[swing]: 100%;"					
-				>
+				
 
 				<!-- {Niños tristes} -->
 				<!-- Niña triste -->
-				<img src="imagenes/privado/intro/nina-c-1.png" alt="ninos" rel="nofollow" class="ninatriste"
+				<!-- <img src="imagenes/privado/intro/nina-d-1.png" alt="ninos" rel="nofollow" class="ninatriste"
 					data-0="opacity: 0; display:none;" 
 					data-15500="display:block;" 
 					data-16000="opacity: 1; display:block;" 
 					data-17000="display:none;"
 					
 				>
-				<img src="imagenes/privado/intro/nina-c-2.png" alt="ninos" rel="nofollow" class="ninatriste"
+				<img src="imagenes/privado/intro/nina-d-2.png" alt="ninos" rel="nofollow" class="ninatriste"
 					data-0="display:none;" 
 					data-16000="display:none;"
 					data-17000="display:block;"
 					data-18000="display:none;"					
 				>
-				<img src="imagenes/privado/intro/nina-c-3.png" alt="ninos" rel="nofollow" class="ninatriste"
+				<img src="imagenes/privado/intro/nina-d-3.png" alt="ninos" rel="nofollow" class="ninatriste"
 					data-0="display:none;" 
 					data-17000="display:none;"
 					data-18000="display:block;"
 					data-19000="display:none;"
 				>
-				<img src="imagenes/privado/intro/nina-c-4.png" alt="ninos" rel="nofollow" class="ninatriste"
+				<img src="imagenes/privado/intro/nina-d-4.png" alt="ninos" rel="nofollow" class="ninatriste"
 					data-0="display:none;" 
 					data-18000="display:none;"
 					data-19000="display:block;"
 					data-20000="display:none;"
 				>
-				<img src="imagenes/privado/intro/nina-c-5.png" alt="ninos" rel="nofollow" class="ninatriste"
+				<img src="imagenes/privado/intro/nina-d-5.png" alt="ninos" rel="nofollow" class="ninatriste"
 					data-0="display:none;" 
 					data-19000="display:none;"
 					data-20000="display:block;"
 					data-22000="opacity: 1;"
 					data-25000="opacity: 0;"
-				>
+				> -->
 				<!-- end Nina triste -->
 
 				<!-- Niño triste -->
-				<img src="imagenes/privado/intro/nino-c-1.png" alt="ninos" rel="nofollow" class="ninotriste"
+				<!-- <img src="imagenes/privado/intro/nino-d-1.png" alt="ninos" rel="nofollow" class="ninotriste"
 					data-0="opacity: 0; display:none;" 
 					data-15500="display:block;" 
 					data-16000="opacity: 1; display:block;" 
 					data-17000="display:none;"					
 				>
-				<img src="imagenes/privado/intro/nino-c-2.png" alt="ninos" rel="nofollow" class="ninotriste"
+				<img src="imagenes/privado/intro/nino-d-2.png" alt="ninos" rel="nofollow" class="ninotriste"
 					data-0="display:none;" 
 					data-16000="display:none;"
 					data-17000="display:block;"
 					data-18000="display:none;"					
 				>
-				<img src="imagenes/privado/intro/nino-c-3.png" alt="ninos" rel="nofollow" class="ninotriste"
+				<img src="imagenes/privado/intro/nino-d-3.png" alt="ninos" rel="nofollow" class="ninotriste"
 					data-0="display:none;" 
 					data-17000="display:none;"
 					data-18000="display:block;"
 					data-19000="display:none;"
 				>
-				<img src="imagenes/privado/intro/nino-c-4.png" alt="ninos" rel="nofollow" class="ninotriste"
+				<img src="imagenes/privado/intro/nino-d-4.png" alt="ninos" rel="nofollow" class="ninotriste"
 					data-0="display:none;" 
 					data-18000="display:none;"
 					data-19000="display:block;"
 					data-20000="display:none;"
 				>
-				<img src="imagenes/privado/intro/nino-c-5.png" alt="ninos" rel="nofollow" class="ninotriste"
+				<img src="imagenes/privado/intro/nino-d-5.png" alt="ninos" rel="nofollow" class="ninotriste"
 					data-0="display:none;" 
 					data-19000="display:none;"
 					data-20000="display:block;"
 					data-22000="opacity: 1;"
 					data-25000="opacity: 0;"
-				>
+				> -->
 				<!-- end Nino triste -->
 
 
 				<!-- {Niños Felices} -->
 				<!-- Niña feliz -->
-				<img src="imagenes/privado/intro/nina-d-1.png" alt="ninos" rel="nofollow" class="ninafeliz"
+				<!-- <img src="imagenes/privado/intro/nina-d-1.png" alt="ninos" rel="nofollow" class="ninafeliz"
 					data-0="opacity: 0; display:none;" 
 					data-25000="display:block;" 
 					data-25500="opacity: 1; display:block;" 
@@ -492,41 +469,75 @@
 					data-27500="display:block;"
 					data-28000="opacity: 1;bottom:-10%"
 					data-32000="opacity: 0;bottom:-100%"
+				> -->
+
+				<!-- Niña feliz -->
+				<img src="imagenes/privado/intro/nina-d-1.png" alt="ninos" rel="nofollow" class="ninafeliz"
+					data-0="opacity: 0; display:none;" 
+					data-15000="display:block;" 
+					data-15500="opacity: 1; display:block;" 
+					data-16000="display:none;"					
+				>
+				<img src="imagenes/privado/intro/nina-d-2.png" alt="ninos" rel="nofollow" class="ninafeliz"
+					data-0="display:none;" 
+					data-15500="display:none;"
+					data-16000="display:block;"
+					data-16500="display:none;"					
+				>
+				<img src="imagenes/privado/intro/nina-d-3.png" alt="ninos" rel="nofollow" class="ninafeliz"
+					data-0="display:none;" 
+					data-16000="display:none;"
+					data-16500="display:block;"
+					data-17000="display:none;"
+				>
+				<img src="imagenes/privado/intro/nina-d-4.png" alt="ninos" rel="nofollow" class="ninafeliz"
+					data-0="display:none;" 
+					data-16500="display:none;"
+					data-17000="display:block;"
+					data-17500="display:none;"
+				>
+				<img src="imagenes/privado/intro/nina-d-5.png" alt="ninos" rel="nofollow" class="ninafeliz"
+					data-0="display:none;" 
+					data-17000="display:none;"
+					data-17500="display:block;"
+					data-19000="opacity: 1;bottom:-10%"
+					data-22000="opacity: 0;bottom:-100%"
 				>
 
 				<!-- Niño feliz -->
 				<img src="imagenes/privado/intro/nino-d-1.png" alt="ninos" rel="nofollow" class="ninofeliz"
 					data-0="opacity: 0; display:none;" 
-					data-25000="display:block;" 
-					data-25500="opacity: 1; display:block;" 
-					data-26000="display:none;"
-					
+					data-15000="display:block;" 
+					data-15500="opacity: 1; display:block;" 
+					data-16000="display:none;"					
 				>
 				<img src="imagenes/privado/intro/nino-d-2.png" alt="ninos" rel="nofollow" class="ninofeliz"
 					data-0="display:none;" 
-					data-25500="display:none;"
-					data-26000="display:block;"
-					data-26500="display:none;"					
+					data-15500="display:none;"
+					data-16000="display:block;"
+					data-16500="display:none;"					
 				>
 				<img src="imagenes/privado/intro/nino-d-3.png" alt="ninos" rel="nofollow" class="ninofeliz"
 					data-0="display:none;" 
-					data-26000="display:none;"
-					data-26500="display:block;"
-					data-27000="display:none;"
+					data-16000="display:none;"
+					data-16500="display:block;"
+					data-17000="display:none;"
 				>
 				<img src="imagenes/privado/intro/nino-d-4.png" alt="ninos" rel="nofollow" class="ninofeliz"
 					data-0="display:none;" 
-					data-26500="display:none;"
-					data-27000="display:block;"
-					data-27500="display:none;"
+					data-16500="display:none;"
+					data-17000="display:block;"
+					data-17500="display:none;"
 				>
 				<img src="imagenes/privado/intro/nino-d-5.png" alt="ninos" rel="nofollow" class="ninofeliz"
 					data-0="display:none;" 
-					data-27000="display:none;"
-					data-27500="display:block;"
-					data-28000="opacity: 1;bottom:-10%"
-					data-32000="opacity: 0;bottom:-100%"
+					data-17000="display:none;"
+					data-17500="display:block;"
+					data-19000="opacity: 1;bottom:-10%"
+					data-22000="opacity: 0;bottom:-100%"
 				>
+
+
 
 
 				<!-- Superman -->
@@ -692,7 +703,7 @@
 							<a href="javascript:void(0)" class="mybut but-style1 spacing" target="_blank"><img src="imagenes/privado/complementos/like.png" alt="" class="text-bottom">&nbsp;#SOMOSNINJA</a>
 						</div>
 						<div class="cleaner">
-							<a href="javascript:void(0)" class="mybut but-style1 spacing"><i class="icon-home"></i>&nbsp;Volver al home</a>
+							<a href="javascript:void(0)" class="mybut but-style2 spacing"><i class="icon-home"></i>&nbsp;Volver al home</a>
 						</div>
 					</div>
 				</div>
@@ -746,16 +757,16 @@
 				else if(scroll >= ini2 && scroll <= fin2){
 					for(var j = ini2; j<fin2; j=j+(items*duracion)){
 						if( scroll >= (j+(duracion*0)) && scroll <= (j+(duracion*0)+duracion-1)){
-							nina.attr({src: 'imagenes/privado/intro/nina-b-1.png'});
-							nino.attr({src: 'imagenes/privado/intro/nino-b-1.png'});
+							nina.attr({src: 'imagenes/privado/intro/nina-a-1.png'});
+							nino.attr({src: 'imagenes/privado/intro/nino-a-1.png'});
 						}
 						if( scroll >= (j+(duracion*1)) && scroll <= (j+(duracion*1)+duracion-1)){
-							nina.attr({src: 'imagenes/privado/intro/nina-b-2.png'});
-							nino.attr({src: 'imagenes/privado/intro/nino-b-2.png'});
+							nina.attr({src: 'imagenes/privado/intro/nina-a-2.png'});
+							nino.attr({src: 'imagenes/privado/intro/nino-a-2.png'});
 						}
 						if( scroll >= (j+(duracion*2)) && scroll <= (j+(duracion*2)+duracion-1)){
-							nina.attr({src: 'imagenes/privado/intro/nina-b-3.png'});
-							nino.attr({src: 'imagenes/privado/intro/nino-b-3.png'});
+							nina.attr({src: 'imagenes/privado/intro/nina-a-3.png'});
+							nino.attr({src: 'imagenes/privado/intro/nino-a-3.png'});
 						}
 					}	
 				}
