@@ -164,7 +164,7 @@
 		}
 		.ninafeliz{
 			position: absolute;
-			left: 10%;
+			left: 7%;
 			width: 500px;
 			bottom: -50px;
 		}
@@ -176,7 +176,7 @@
 		}
 		.ninofeliz{
 			position: absolute;
-			left: 45%;
+			left: 55%;
 			width: 500px;
 			bottom: -50px;
 		}
@@ -218,7 +218,7 @@
 		.maincontent{max-width: 800px; position: absolute;left:0;right: 0;bottom: 0;top:0;text-align: center;height:500px;z-index: 1;margin: auto;}
 		h1{font:50px helveticaBd;color:#148dbf;}
 		/*El cambio de pende de ti*/
-		h2{font:60px helveticaBd;color:#148dbf;}
+		h2{font:50px helveticaBd;color:#148dbf;}
 		h3{font:50px helveticaBd;color:#148dbf;}
 		
 
@@ -238,6 +238,16 @@
 			margin: auto;
 			z-index: 1;
 		}
+
+
+		/*Textos*/
+		.texto1{font:35px helveticaBd;color:#148dbf;position: absolute; top:10px; width:320px; height:auto;}
+		.texto2{font:45px helveticaBd;color:#148dbf;position: absolute; right: 25%;width: 780px;height: auto;}
+		.texto3{font:45px helveticaBd;color:#148dbf;position: absolute; left: 1%;width: 780px;height: auto;}
+		.texto4{font:45px helveticaBd;color:#148dbf;position: absolute; right: 1%;width: 780px;height: auto;}
+		.texto5{font:55px helveticaBd;color:#148dbf;position: absolute; width: 280px;height: auto;}
+		.texto6{font:45px helveticaBd;color:#148dbf;position: absolute; width: 700px;height: auto;top:10%;}
+		.texto7{font:45px helveticaBd;color:#148dbf;position: absolute; width: 700px;height: auto;top:5%;right:10%;}
 
 		@media only screen and (max-width: 1300px){
 			.superman{left: -10%}
@@ -268,7 +278,7 @@
 		<div class="maincontent cleaner">
 			<div class="tablita cleanerr">
 				<div class="cleaner">
-					<h1>Para cumplir nuestros sueños necesitamos un ambiente sano?</h1>
+					<h1>Para cumplir nuestros sueños necesitamos un ambiente sano</h1>
 				</div>
 			</div>
 		</div>
@@ -285,20 +295,79 @@
 				<!-- Niño -->
 				<img id="nino" src="imagenes/privado/intro/nino-a-2.png" alt="enana" rel="nofollow" class="nino" data-0="left:14%" data-15000="left:14%" data-16000="left:-50%">
 				
+				<!-- Textos	 -->
+				<h4 class="texto1"
+					data-0="right[linear]: 1%; display:none;opacity:0;" 
+					data-100 ="right[linear]: 1%; display:block;opacity:1;" 
+					data-200="right[linear]: 1%; display:block; opacity:1;" 
+					data-300="right[linear]: 1%; display:block; opacity:1;" 
+					data-500="right[linear]: 15%;  opacity:1; display:block;" 
+					data-1000="right[linear]: 30%;  opacity:1; display:block;" 
+					data-3000="right[linear]: 50%; display:none;opacity:0;"
+				>... y a las personas</h4>
+
+				<h4 class="texto2"
+					data-0="top[linear]: 17%; display:none;opacity:0;" 
+					data-3000 ="top[linear]: 17%; display:block;opacity:0;" 
+					data-4500="top[linear]: 3%; display:block; opacity:1;" 
+					data-5500="top[linear]: 3%; display:block; opacity:1;" 				 
+					data-6000="top[linear]: 3%; display:none;opacity:0;"
+				>que tengan la misión de cuidarlo</h4>
+
+				<h4 class="texto3"
+					data-0="top[linear]: 15%; display:none;opacity:0;" 
+					data-6000 ="top[linear]: 15%; display:block;opacity:0;" 
+					data-7500="top[linear]: 1%; display:block; opacity:1;" 
+					data-8500="top[linear]: 1%; display:block; opacity:1;" 				 
+					data-10000="top[linear]: 1%; display:none;opacity:0;"
+				>aportando através de sus acciones</h4>
+
+				<h4 class="texto4"
+					data-0="top[linear]: 15%; display:none;opacity:0;" 
+					data-14000 ="top[linear]: 15%; display:block;opacity:0;" 
+					data-15000="top[linear]: 1%; display:block; opacity:1;" 
+					data-16000="top[linear]: 1%; right:25%; display:block; opacity:1;" 				 
+					data-17000="top[linear]: 1%; right:50%; display:none;opacity:0;"
+				>a la naturaleza</h4>
+
+				<h4 class="texto5"
+					data-0="top[linear]: 15%; display:none;opacity:0;" 
+					data-17000 ="top[linear]: 45%; display:block;opacity:0;" 
+					data-18000="top[linear]: 10%; display:block; opacity:1;" 
+					data-19000="top[linear]: 10%; right:45%; display:block; opacity:1;" 				 
+					data-20000="top[linear]: 10%; right:50%; display:none;opacity:0;"
+				>a ti y a mi</h4>
+
+				<h4 class="texto6"
+					data-0=" right[linear]:-100%; display:none;opacity:0;" 
+					data-23000 ="right[linear]:-50%;display:block;opacity:0;" 
+					data-25000="right[linear]:0%;display:block; opacity:1;" 
+					data-26000="right[linear]:15%; display:block; opacity:1;" 				 
+					data-27000="right[linear]:50%; display:none;opacity:0;"
+				>ellos son los imprescindibles</h4>
+
+				<h4 class="texto7"
+					data-0="top[linear]:-50%; display:none;opacity:0;" 
+					data-27000 ="top[linear]:0%; display:block;opacity:0;" 
+					data-28000="top[linear]:10%; display:block; opacity:1;" 
+					data-29000="top[linear]:10%; display:block; opacity:1;" 				 
+					data-34000="top[linear]:-50%; display:none;opacity:0;"
+				>para crear un mundo mejor</h4>
+
 				<!-- Sol -->		
 				<img src="imagenes/privado/intro/sol.png" alt="sol" rel="nofollow" class="sol"
 					data-0="right: -100%; display:none;" 
-					data-1200="right[linear]: 0%; display:block;" 
-					data-4200="right[linear]: 50%;"
-					data-8200="right[linear]: 100%;"
+					data-1100="right[linear]: 0%; display:block;" 
+					data-2200="right[linear]: 50%;"
+					data-3200="right[linear]: 100%;"
 				>
 				<!-- Carro		 -->
 				<img src="imagenes/privado/intro/carro.png" alt="carro" rel="nofollow" class="carro"
 					data-0="right[linear]: -100%; display:none;" 
-					data-6000 ="right[linear]: -50%; display:block;" 
-					data-8000="right[linear]: 0%; display:block;" 
-					data-10000="right[linear]: 100%; display:block;" 
-					data-12000="right[linear]: 150%; display:none;"
+					data-9000 ="right[linear]: -50%; display:block;" 
+					data-11000="right[linear]: 0%; display:block;" 
+					data-13000="right[linear]: 100%; display:block;" 
+					data-15000="right[linear]: 150%; display:none;"
 				>
 
 				<!-- Hoja 1 -->
@@ -674,15 +743,16 @@
 				<!-- Texto editable -->
 				<div class="cleaner elcambio"
 						data-0="display:none;opacity:0"
-					data-31000="display:block;"
-					data-34000="display:block;opacity:1"
-					data-36000="display:block;opacity:1"
-					data-43000="display:none;opacity:0"
+					data-33000="display:block;"
+					data-35000="display:block;opacity:1"
+					data-37000="display:block;opacity:1"
+					data-40000="display:block;opacity:1"
+					data-42000="display:none;opacity:0"
 					data-43500="display:none;"
 				>
 					<div class="tablita cleaner">
 						<div class="cleaner">
-							<h2>El cambio depende de ti</h2>
+							<h2>y los estamos buscando</h2>
 						</div>
 					</div>
 				</div>
